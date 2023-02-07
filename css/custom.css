@@ -1,1 +1,5 @@
-
+.custom-carousel {
+    height: 400px;
+    align-items: center;
+    background-color: aqua;
+}
