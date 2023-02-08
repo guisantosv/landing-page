@@ -3,3 +3,27 @@
     align-items: center;
     background-color: aqua;
 }
+
+.custom-details {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: auto;
+    color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Essas 3 propriedades centralizam um objeto!! */
+}
+
+.custom-details i {
+    font-size: 4rem;
+    transition: 1s;
+}
+
+.custom-details:hover i {
+    color: aqua;
+    transform: rotate(360deg) scale(1.5);
+    transition: 1s;
+    cursor: pointer;
+}
